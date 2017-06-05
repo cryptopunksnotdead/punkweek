@@ -1,4 +1,4 @@
-# feedfinder gem - web feed finder and discovery (RSS, Atom, JSON Feed, etc.)
+# feedfind gem - web feed finder and discovery (RSS, Atom, JSON Feed, etc.)
 
 * home  :: [github.com/feedparser/feedfinder](https://github.com/feedparser/feedfinder)
 * bugs  :: [github.com/feedparser/feedfinder/issues](https://github.com/feedparser/feedfinder/issues)
