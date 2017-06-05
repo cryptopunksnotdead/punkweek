@@ -2,8 +2,8 @@
 
 * home  :: [github.com/feedparser/feedfinder](https://github.com/feedparser/feedfinder)
 * bugs  :: [github.com/feedparser/feedfinder/issues](https://github.com/feedparser/feedfinder/issues)
-* gem   :: [rubygems.org/gems/feedfinder](https://rubygems.org/gems/feedfinder)
-* rdoc  :: [rubydoc.info/gems/feedfinder](http://rubydoc.info/gems/feedfinder)
+* gem   :: [rubygems.org/gems/feedfind](https://rubygems.org/gems/feedfind)
+* rdoc  :: [rubydoc.info/gems/feedfind](http://rubydoc.info/gems/feedfind)
 * forum :: [groups.google.com/group/wwwmake](http://groups.google.com/group/wwwmake)
 
 

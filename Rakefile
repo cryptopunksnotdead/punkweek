@@ -1,7 +1,7 @@
 require 'hoe'
 require './lib/feedfinder/version.rb'
 
-Hoe.spec 'feedfinder' do
+Hoe.spec 'feedfind' do
 
   self.version = FeedFinder::VERSION
 
