@@ -1,6 +1,4 @@
----
-title: "PUNK® Trademark Foundation (Or Is That DAO?) Upcoming - Let's Collect Funds to Defend That PUNK® Belongs To Us All - First Case - Crypto Fraudsters' Matt & John's® Ongoing Infringement for Serious Violation of the PUNK® Ethos / Philosophy / Trademark"
----
+# PUNK® Trademark Foundation (Or Is That DAO?) Upcoming - Let's Collect Funds to Defend That PUNK® Belongs To Us All - First Case - Crypto Fraudsters' Matt & John's® Ongoing Infringement for Serious Violation of the PUNK® Ethos / Philosophy / Trademark
 
 
 
