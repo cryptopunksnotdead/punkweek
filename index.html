@@ -19,7 +19,7 @@ layout: page
 {% for post in site.posts %}
 <div>
   <p>
-   <a href="{{ post.url }}"><b>{{ post.title }}</b></a>
+   <a href="{{ post.url | relative_url }}"><b>{{ post.title }}</b></a>
   </p>
 
   <p>
