@@ -9,6 +9,11 @@ _Inside News About The Billion $$$ Matt & John's® Pixel Art Blockchain Token Co
 
 
 
+## Questions? Comments?
+
+Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
+
+
 
 
 
