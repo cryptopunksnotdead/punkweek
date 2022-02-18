@@ -7,13 +7,14 @@ layout: page
 -->
 
 
+
+<h2>{{ site.title }}</h2>
+
 <p>
   Inside News About The Billion $$$
   Pixel Art Blockchain Token Con-Artist Fraud.
   All About Matt &amp; John's® Punks And Much More.
 </p>
-
-<h2>{{ site.title }}</h2>
 
 
 
@@ -33,7 +34,17 @@ layout: page
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
   <div>
-    <span style="font-size: 80%;">{{ post.date | date: '%A - %B %-d, %Y' }}</span><br>
+    <p style="font-size: 80%; ">
+      {% assign day = page.date | date: "%-d"  %}
+      {{ post.date | date: '%A, %B' }}
+      {% case day %}
+        {% when '1' or '21' or '31' %}{{ day }}st,
+        {% when '2' or '22' %}{{ day }}nd,
+        {% when '3' or '23' %}{{ day }}rd,
+        {% else %}{{ day }}th,
+      {% endcase %}
+      {{ page.date | date: "%Y" }}
+    </p>
 
   <!-- excerpt -->
   {{ post.excerpt }}
