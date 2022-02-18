@@ -14,9 +14,18 @@ layout: page
 </p>
 
 
-
+{% assign last_week = '00' %}
 
 {% for post in site.posts %}
+
+  {% assign week = post.date | date: '%W' %}
+
+  {% if last_week != post.week  %}
+      <h2>Punk Week {{ post.date | date: '%W/%Y'  }}</h2>
+  {% endif %}
+  {% assign last_week = week %}
+
+
 <div>
   <p>
    <a href="{{ post.url | relative_url }}"><b>{{ post.title }}</b></a>

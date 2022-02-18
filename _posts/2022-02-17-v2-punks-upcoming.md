@@ -1,5 +1,7 @@
 ---
 title: "Punks V2 Upcoming (New Attributes! New Colors! New Background!) - Rebranding Historic Punks V2 To Classic (Or Is That Antique or Archaic) Matt & John's® CryptoPunks V2 - What's Your Take? Wen V1? Wen V5?"
+
+week: 7
 ---
 
 
