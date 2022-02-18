@@ -13,7 +13,7 @@ layout: page
   All About Matt &amp; John's® Punks And Much More.
 </p>
 
-<h1>{{ site.title }}</h1>
+<h2>{{ site.title }}</h2>
 
 
 
@@ -25,20 +25,21 @@ layout: page
   {% assign week = post.date | date: '%W' %}
 
   {% if last_week != week  %}
-      <h2>Punk Week {{ post.date | date: '%W/%Y'  }}</h2>
+      <h1>Punk Week {{ post.date | date: '%W/%Y'  }}</h1>
   {% endif %}
   {% assign last_week = week %}
 
 
-  <p style="font-size: 80%;">{{ post.date | date: '%A, %B %-d' }}</p>
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
   <div>
+    <span style="font-size: 80%;">{{ post.date | date: '%A - %B %-d, %Y' }}</span><br>
+
   <!-- excerpt -->
   {{ post.excerpt }}
 
   <p>
-    <a href="{{ post.url | relative_url }}"><b>Read More...</b></a>
+    <a href="{{ post.url | relative_url }}"><b>[Read More&hellip;]</b></a>
   </p>
   <hr>
 </div>
