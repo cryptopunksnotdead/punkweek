@@ -1,7 +1,5 @@
 ---
 title: "Crypto Bro Millionaire Influencer Case Study - Mike Hager - German Crypto Art Token 'Pope' And Bestselling Author of 'Getting Rich Quick w/ Non-Fungible Tokens - Everything You Need To Know' - Another Crypto Bro Scammer & Fraudster? - Inside the Bubble Propaganda Machine"
-
-week: 7
 ---
 
 
