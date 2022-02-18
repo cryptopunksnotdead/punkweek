@@ -20,15 +20,15 @@
 
 
       <p style="font-size: 80%; margin-bottom: 0;">
-        {% assign day = post.date | date: "%-d"  %}
-        {{ post.date | date: '%A, %B' }}
+        {% assign day = page.date | date: "%-d"  %}
+        {{ page.date | date: '%A, %B' }}
         {% case day %}
           {% when '1' or '21' or '31' %}{{ day }}st,
           {% when '2' or '22' %}{{ day }}nd,
           {% when '3' or '23' %}{{ day }}rd,
           {% else %}{{ day }}th,
         {% endcase %}
-        {{ post.date | date: "%Y" }}
+        {{ page.date | date: "%Y" }}
       </p>
       <h1 style="padding-top: 0; margin-top: 0;">{{ page.title }}</h1>
 
