@@ -20,7 +20,7 @@ layout: page
 
   {% assign week = post.date | date: '%W' %}
 
-  {% if last_week != post.week  %}
+  {% if last_week != week  %}
       <h2>Punk Week {{ post.date | date: '%W/%Y'  }}</h2>
   {% endif %}
   {% assign last_week = week %}
