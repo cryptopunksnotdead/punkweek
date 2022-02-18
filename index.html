@@ -30,19 +30,15 @@ layout: page
   {% assign last_week = week %}
 
 
-<div>
-  <p>
-   <a href="{{ post.url | relative_url }}"><b>{{ post.title }}</b></a>
-  </p>
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
-
+  <div>
   <!-- excerpt -->
   {{ post.excerpt }}
 
+  <hr>
 </div>
 {% endfor %}
-
-
 
 
 

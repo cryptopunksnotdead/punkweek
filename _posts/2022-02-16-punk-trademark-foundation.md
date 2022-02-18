@@ -13,6 +13,10 @@ Here's an idea:
 > [**Punk (subculture) @ Wikipedia**](https://en.wikipedia.org/wiki/Punk_subculture)
 
 
+<!-- more -->
+
+
+
 Let's start with the Larva Lab (Crypto Bro Millionaire) Fraudsters' Matt & John's®. What's your take?
 
  Questions and comments welcome.

@@ -16,6 +16,8 @@ title: "Punks V2 Upcoming (New Attributes! New Colors! New Background!) - Rebran
 
 Let's applaud Romero for bringing a fresh take on the V1, V2, V3, V4, V5, Classic vs Historic vs Antique vs Archaic saga.
 
+<!-- more -->
+
 [**Romero writes**](https://medium.com/@romeroeth/cryptopunks-are-not-v2-we-are-v2-c38d37410a20):
 
 > Since we’re called V2, there’s some dual logic: some of the traits are original (gangsta) Matt & John's® CryptoPunk attributes, hand-drawn by me pixel-by-pixel from original ones (however, even in this case, some colors have been changed so that it does not look "old and already pretty tired").

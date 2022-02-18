@@ -7,6 +7,8 @@ title: "Crypto Bro Millionaire Influencer Case Study - Mike Hager - German Crypt
    Let's state the obvious that most "art" token need to get regulated as securities (why buy? obviously because the token is an investment and the buyer expects prices go up by HODLing - that is - doing nothing)
 and the youtubers and influences promoting the "trash"  like todays's case study and crypto bro millionaire and fraudster Mr. Mike Hager  - calling himself in the cryptoverse "Nullinger" that I assume translates to know-nothing or dummy - can spout any non-sense without what looks like facing any consequences for defrauding thousand of newcomers with complete bullshit.
 
+<!-- more -->
+
 If you are German-speaking I am reading the fresh-off-the-press book titled "Getting Rich Quick with Non-Fungible Tokens - Everything You Need To Know" in German [**"Reich mit Non-Fungible Tokens - Alles, Was Du Wissen Musst" by Mike Hager**](https://www.m-vg.de/finanzbuchverlag/shop/article/22839-reich-mit-nfts/).   Mike "Nullinger" Hager who writes in the intro to have turned 300.000 Euro into 4.000.000 Euro (on paper) in about half a year (including buying and HODLing [**Matt & John's® Punk(ette) #1548**](https://www.larvalabs.com/cryptopunks/details/1548) back in February 2021 for about 25.000 Euro).
 
 The book is a bestseller¹ (paperback for Euro 15) - Are You Enjoying Staying Poor? -  and - surprise, surprise - pretty short on any critique or on how to draw / paint your own punks or on "the emperor has no clothes"  technicalities on how the "magic" money machine works or such. (Spoiler: It's a mix of ponzis, multi-level marketing pyramid schemes, and so on but - sure - that's material for a follow-up book).
