@@ -30,12 +30,16 @@ layout: page
   {% assign last_week = week %}
 
 
+  <p style="font-size: 80%;">{{ post.date | date: '%A, %B %-d' }}</p>
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
   <div>
   <!-- excerpt -->
   {{ post.excerpt }}
 
+  <p>
+    <a href="{{ post.url | relative_url }}"><b>Read More...</b></a>
+  </p>
   <hr>
 </div>
 {% endfor %}
