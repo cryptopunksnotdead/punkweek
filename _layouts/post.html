@@ -17,9 +17,24 @@
       </p>
 
       <h2>Punk Week {{ page.date | date: '%W/%Y'  }}</h2>
-      <h1>{{ page.title }}</h1>
+
+
+      <p style="font-size: 80%; margin-bottom: 0;">
+        {% assign day = post.date | date: "%-d"  %}
+        {{ post.date | date: '%A, %B' }}
+        {% case day %}
+          {% when '1' or '21' or '31' %}{{ day }}st,
+          {% when '2' or '22' %}{{ day }}nd,
+          {% when '3' or '23' %}{{ day }}rd,
+          {% else %}{{ day }}th,
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
+      </p>
+      <h1 style="padding-top: 0; margin-top: 0;">{{ page.title }}</h1>
 
       {{ content }}
+
+      <hr>
 
 
       <!--
@@ -27,6 +42,7 @@
         This site is open source. {% github_edit_link "Improve this page" %}.
       </div>
 -->
+
 
       <p style="font-size: 80%;">
         <a href="{{ '/' | relative_url }}">« {{ site.title}} </a>
