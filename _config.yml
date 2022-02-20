@@ -3,6 +3,9 @@ title: "All Punk (Pixel Art) News, All The Time! - Fuck Yeah, It's Punk Week! - 
 excerpt_separator: "<!-- more -->"
 
 
+##  try using same format as in source (easier with cross-ref links?)
+permalink: /:year-:month-:day-:title.html
+
 exclude:
 - README.md
 - LICENSE.md

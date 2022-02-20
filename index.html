@@ -46,9 +46,9 @@ layout: page
     <h3 style="padding-top: 0; margin-top: 0; "><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
 
-      {{ if post.image }}
+      {% if post.image %}
           <img src="{{ 'i/' | append: post.image | relative_url }}">
-      {{ endif }}
+      {% endif %}
 
 
     <div>
