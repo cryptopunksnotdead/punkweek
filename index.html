@@ -32,7 +32,7 @@ layout: page
 
 
     <p style="font-size: 80%; margin-bottom: 0;">
-      {% assign day = post.date | date: "%-d"  %}
+      {% assign day = post.date | date: '%-d' %}
       {{ post.date | date: '%A, %B' }}
       {% case day %}
         {% when '1' or '21' or '31' %}{{ day }}st,
@@ -40,10 +40,16 @@ layout: page
         {% when '3' or '23' %}{{ day }}rd,
         {% else %}{{ day }}th,
       {% endcase %}
-      {{ post.date | date: "%Y" }}
+      {{ post.date | date: '%Y' }}
     </p>
 
     <h3 style="padding-top: 0; margin-top: 0; "><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+
+
+      {{ if post.image }}
+          <img src="{{ 'i/' | append: post.image | relative_url }}">
+      {{ endif }}
+
 
     <div>
       <!-- excerpt -->
