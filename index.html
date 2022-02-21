@@ -8,7 +8,7 @@ layout: page
 
 
 
-<h2>{{ site.title }}</h2>
+<h2>{{ site.title | escape }}</h2>
 
 <p>
   Inside News About The Billion $$$
@@ -43,7 +43,7 @@ layout: page
       {{ post.date | date: '%Y' }}
     </p>
 
-    <h3 style="padding-top: 0; margin-top: 0; "><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <h3 style="padding-top: 0; margin-top: 0; "><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
 
 
       {% if post.image %}

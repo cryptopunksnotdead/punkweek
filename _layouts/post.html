@@ -13,7 +13,7 @@
     <div class="container-lg px-3 my-5 markdown-body">
 
       <p style="font-size: 80%;">
-        <a href="{{ '/' | relative_url }}">« {{ site.title}} </a>
+        <a href="{{ '/' | relative_url }}">« {{ site.title | escape }} </a>
       </p>
 
       <h2>Punk Week {{ page.date | date: '%W/%Y'  }}</h2>
@@ -30,15 +30,15 @@
         {% endcase %}
         {{ page.date | date: '%Y' }}
       </p>
-      <h1 style="padding-top: 0; margin-top: 0;">{{ page.title }}</h1>
+      <h1 style="padding-top: 0; margin-top: 0;">{{ page.title | escape }}</h1>
 
       {% if page.image %}
          <img src="{{ 'i/' | append: page.image | relative_url }}">
       {% endif %}
 
 
-
-      {{ content }}
+  <!-- try to fix broken left-over .md links - changing extions to .html-->
+  {{ content | replace: '.md">', '.html">' }}
 
       <hr>
 
@@ -59,7 +59,7 @@
 
 
       <p style="font-size: 80%;">
-        <a href="{{ '/' | relative_url }}">« {{ site.title}} </a>
+        <a href="{{ '/' | relative_url }}">« {{ site.title | escape }} </a>
       </p>
 
     </div>
