@@ -17,3 +17,13 @@ plugins:
 - jekyll-avatar
 - jemoji
 
+
+###
+## see https://github.com/benbalter/jekyll-relative-links
+##   check why not working?
+##   requires permalink pretty or such?
+##   try with permalink w/o  .html - why? why not?
+
+relative_links:
+  enabled:  true
+
