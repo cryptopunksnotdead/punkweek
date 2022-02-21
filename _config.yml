@@ -4,8 +4,8 @@ excerpt_separator: "<!-- more -->"
 
 
 ##  try using same format as in source (easier with cross-ref links?)
-## permalink: /:year-:month-:day-:title.html
-permalink: /:year-:month-:day-:title
+permalink: /:year-:month-:day-:title.html
+## permalink: /:year-:month-:day-:title
 
 
 exclude:
@@ -14,10 +14,10 @@ exclude:
 
 
 plugins:
-- jekyll-relative-links
 - jekyll-feed
 - jekyll-avatar
 - jemoji
+## - jekyll-relative-links
 
 
 ###
@@ -25,7 +25,8 @@ plugins:
 ##   check why not working?
 ##   requires permalink pretty or such?
 ##   try with permalink w/o  .html - why? why not?
-
-relative_links:
-  enabled:     true
-  collections: true
+##  note: looks like it works in posts BUT not in pages!!!
+#
+# relative_links:
+#  enabled:     true
+#  collections: true
