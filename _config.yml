@@ -4,7 +4,9 @@ excerpt_separator: "<!-- more -->"
 
 
 ##  try using same format as in source (easier with cross-ref links?)
-permalink: /:year-:month-:day-:title.html
+## permalink: /:year-:month-:day-:title.html
+permalink: /:year-:month-:day-:title
+
 
 exclude:
 - README.md
@@ -25,5 +27,5 @@ plugins:
 ##   try with permalink w/o  .html - why? why not?
 
 relative_links:
-  enabled:  true
-
+  enabled:     true
+  collections: true
