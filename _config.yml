@@ -12,5 +12,8 @@ exclude:
 
 
 plugins:
-  - jekyll-relative-links
+- jekyll-relative-links
+- jekyll-feed
+- jekyll-avatar
+- jemoji
 
