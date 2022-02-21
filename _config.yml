@@ -10,3 +10,7 @@ exclude:
 - README.md
 - LICENSE.md
 
+
+plugins:
+  - jekyll-relative-links
+
