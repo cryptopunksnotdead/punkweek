@@ -11,6 +11,8 @@ before hitting the big time with a new marketing (or is that shilling?) team
 and rebranding as world's first historic 10 000 doge collection - posted the image above (titled "Smoking Gun - Bored Ape Yacht Club® Copyright Infringement!?").
 
 
+<!-- more -->
+
    Anyways, the 10 000 dooggies "hand-painted" pixel art in the 32x32 format by a 16-year-old teenager started on April 6th, 2021, that is, two weeks before Bored Ape Yacht Club® (BAYC) -  launched on April 22nd, 2021 -
 and ten weeks before Bored Ape Kennel Club® (BAKC) -  launched on June 18th, 2021.
 
