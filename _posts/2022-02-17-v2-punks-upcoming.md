@@ -7,9 +7,9 @@ title: "Punks V2 Upcoming (New Attributes! New Colors! New Background!) - Rebran
 > V2 Punks - a new interpretation of the situation around the punks versions,
 > designed to close the gap between V1 and V3.
 >
-> Yes, I’m perfectionist: v1punks.io > v2punks.io > v3punks.io
+> Yes, I'm perfectionist: v1punks.io > v2punks.io > v3punks.io > v4punks.io
 >
-> Let’s go, green army!
+> Let's go, green army!
 >
 > V2 Punks minting (the first 1000 punks for 0.01 ETH (about US$ 30), remaining for 0.02 ETH (about US$ 60))
 
